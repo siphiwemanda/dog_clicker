@@ -33,7 +33,8 @@ const model={
   ],
   //currentDog: null
 }
-
+  var test = 0
+  
 let octopus ={
 
  init: function(){

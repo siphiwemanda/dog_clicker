@@ -2,15 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+
+
+    <!--//Added 4 lines here for unit testing-->
+    <link rel="stylesheet" href="jasmine/lib/jasmine-2.1.2/jasmine.css">
+    <script src="jasmine/lib/jasmine-2.1.2/jasmine.js"></script>
+    <script src="jasmine/lib/jasmine-2.1.2/jasmine-html.js"></script>
+    <script src="jasmine/lib/jasmine-2.1.2/boot.js"></script>
+
     <title>Dog Clicker</title>
 </head>
-<body>
-    <ul id="Dog-list"></ul>
+<body class="hello">
+  <div class="container">
+    <div class = 'header'><h1>Dog Clicker</h1></div>
+    <div class = 'menu'> <ul id="Dog-list"></ul></div>
     <div id="Dog">
         <h2 id="Dog-name"></h2>
         <div id="Dog-count"></div>
         <img id="Dog-img" src="" alt="cute Dog"  width="500" height="450">
     </div>
+    <div class = 'footer'>footer</div>
+    </div>
     <script src="js/app.js"></script>
+
+    <!--//Added next line for unit testing-->
+    <script src="jasmine/spec/feedreader.js"></script>
+
 </body>
 </html>

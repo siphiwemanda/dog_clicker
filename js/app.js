@@ -95,6 +95,4 @@ dogview.render();
 dogview.rendercount()
 }
 };
-
-
 octopus.init();

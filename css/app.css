@@ -1,62 +1,32 @@
-
-
 body {
-
     font-family: 'Coda', cursive;
     background-color:  white;
 }
-
 .container {
-  display: grid;
-   grid-template-columns: 0.5fr 4fr;
-   grid-template-rows: 100px auto 100px;
-   grid-gap: 10px;
-   background-color: white;
+     display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3px;
+}
+
+.left{
+  background-color: #efe0e0;
 }
 
 .menu{
-  background-color: white;
-  grid-row: 2/4;
-  font-size: large;
-
-box-shadow: 3px 10px 25px 0px rgba(0,0,0,0.75);
-
-
 }
 
-#Dog{
-  background-color: white;
-  grid-row: 2/4;
-  text-align: center;
-  box-shadow: 3px 10px 25px 0px rgba(0,0,0,0.75);
-
-
-
+.Dog{
+  background-color: #c7ddf5;
 }
 
 .header{
-  grid-column: 1/-1;
-  background-color: white;
-  text-align: center;
+
 
 }
 
 .footer{
-  grid-column: 2/-1;
-  background-color: white;
-
 }
 
 #Dog-list {
-  background-color: #555555;
-  color: white;
-  padding: 32px 16px;
 
-  display: flex;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  margin: 20px 20px;
-  cursor: pointer;
-  box-shadow: 3px 10px 25px 0px rgba(0,0,0,0.75);
 }

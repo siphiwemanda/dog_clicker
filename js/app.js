@@ -26,9 +26,7 @@ const model={
       imgSrc: 'img/bindi.jpg',
     }
   ],
-  //currentDog: null
 };
-const test = 0;
 
 const dogview ={
 init: function () {
@@ -39,7 +37,7 @@ init: function () {
   this.render();
   this.rendercount();
   this.dogelemimg.addEventListener('click' , function () {
-    octopus.clicked();
+    controler.clicked();
 
   });
 },
@@ -68,15 +66,14 @@ const doglist = {
    this.listdog.appendChild(elem);
    elem.addEventListener('click', function (dog) {
      return function(){
-     octopus.setDog(dog)
-     //console.log(i)
+       controler.setDog(dog)
    };
 }(model.Dogs[i]));
 
  }
  }
 };
-let octopus ={
+let controler ={
 
  init: function(){
    currentDog = model.Dogs[0];
@@ -95,4 +92,4 @@ dogview.render();
 dogview.rendercount()
 }
 };
-octopus.init();
+controler.init();

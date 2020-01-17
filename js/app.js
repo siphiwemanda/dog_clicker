@@ -34,7 +34,7 @@ const model={
   //currentDog: null
 }
   var test = 0
-  
+
 let octopus ={
 
  init: function(){
@@ -86,7 +86,7 @@ rendercount: function () {
  this.dogelemcount.textContent=currentDog.clickCount;
 },
 
-}
+};
 
 var doglist = {
   init: function(){
@@ -111,18 +111,6 @@ var doglist = {
 }(model.Dogs[i]));
 
  }
-
-
-
-
  }
-
 }
-
-
-
-
-
-
-
-octopus.init()
+octopus.init();

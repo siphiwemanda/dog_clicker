@@ -45,7 +45,6 @@ init: function () {
 render: function (){
   this.dogelemimg.src=currentDog.imgSrc;
   this.dogelemname.textContent=currentDog.name;
-
 },
 
 rendercount: function () {
@@ -59,7 +58,7 @@ const doglist = {
   },
 
  render: function () {
-   var i, elem;
+   let i, elem;
    for(i=0;i < model.Dogs.length;i++){
    elem= document.createElement('li');
    elem.textContent =model.Dogs[i].name;

@@ -47,6 +47,7 @@ render: function (){
   this.dogelemname.textContent=currentDog.name;
 },
 
+
 rendercount: function () {
  this.dogelemcount.textContent=currentDog.clickCount;
 },

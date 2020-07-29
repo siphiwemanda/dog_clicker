@@ -1,22 +1,43 @@
-body {
-    font-family: 'Coda', cursive;
-    background-color:  white;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    font-family: 'Raleway', serif;
 }
 .container {
-     display: inline-grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 3px;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: hidden
+
 }
 
 .left{
-  background-color: #efe0e0;
+    height: 70%;
+    width: 25%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
 }
 
 .menu{
 }
 
 .Dog{
-  background-color: #c7ddf5;
+
 }
 
 .header{
@@ -27,6 +48,27 @@ body {
 .footer{
 }
 
-#Dog-list {
 
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s ease-out;
 }
+
+
+.Dog {
+    height: 300px;
+    width: 75%;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 80px;
+}
+

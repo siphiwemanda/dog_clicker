@@ -12,7 +12,7 @@ const model={
     },
     {
       clickCount: 0,
-      name: 'max',
+      name: 'Max',
       imgSrc: 'img/max.jpg',
     },
     {
@@ -22,7 +22,7 @@ const model={
     },
     {
       clickCount: 0,
-      name: 'bindi',
+      name: 'Bindi',
       imgSrc: 'img/bindi.jpg',
     }
   ],

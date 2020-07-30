@@ -33,23 +33,6 @@ html, body {
     padding-left: 30px;
 }
 
-.menu{
-}
-
-.Dog{
-
-}
-
-.header{
-
-
-}
-
-.footer{
-}
-
-
-
 li {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -69,6 +52,15 @@ li {
     padding-right: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 80px;
+    padding-top: 50px;
 }
-
+.dog-info{
+    padding-left: 20px;
+}
+#Dog-count{
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}

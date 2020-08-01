@@ -1,15 +1,16 @@
-# A version of cat clicker
-
+# Dog Clicker
 https://siphiwemanda.github.io/dog_clicker/
 
-This project was to learn how to use model, view and controller.
-and is a rewritten version of the cat clicker for the Udacity FEND NanoDegree
+This project aims to demonstrate the separation of concerns using model, view and controller. 
 
-# How to play
-Click on the dog and the click-counter will go up
-you can change the dog by clicking on the dogs name in the list
+## How to play
 
-# Photo Attribution
-https://www.instagram.com/p/BoJvrmJAYGi/?taken-by=arlo.dood Arlo
-https://www.instagram.com/p/BnmUd4ID4Km/?taken-by=aspenthemountainpup Aspen
-https://www.instagram.com/p/Bn9HsJAgVNq/?taken-by=maximusohlsen Max
+Click on the dog and the click-counter will go up you can change the dog by clicking on the dog's name in the list.
+
+## Doggos
+
+Arlo - shorturl.at/hEIS5
+
+Aspen - shorturl.at/bzBEZ 
+
+Max - shorturl.at/akpxH
